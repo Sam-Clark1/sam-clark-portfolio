@@ -1,8 +1,11 @@
-
+import { Box } from '@mui/material';
+import Nav from './Nav'
 const Header = () => {
     return (
         <header>
-            hello world
+            <Box sx={{width: 'auto',height: 250}}>
+                <Nav></Nav>
+            </Box>
         </header>
     )
 }
