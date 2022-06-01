@@ -1,8 +1,8 @@
 import { Box } from "@mui/material"
-export default function Contact({currentPage, setCurrentPage}) {
+export default function Resume({currentPage, setCurrentPage}) {
     return(
         <Box sx={{color:'white'}}>
-            test2
+            test3
         </Box>
     )
 }

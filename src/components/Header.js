@@ -1,12 +1,13 @@
 import { Box } from '@mui/material';
 import Nav from './Nav'
-const Header = () => {
+const Header = ({currentPage, setCurrentPage}) => {
     return (
-        <header>
-            <Box sx={{width: 'auto',height: 250}}>
-                <Nav></Nav>
-            </Box>
-        </header>
+        <Box sx={{width: 'auto',height: 250}}>
+            <Nav
+            currentPage = {currentPage}
+            setCurrentPage = {setCurrentPage}>
+            </Nav>
+        </Box> 
     )
 }
 
