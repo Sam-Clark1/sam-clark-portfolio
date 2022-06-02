@@ -1,7 +1,7 @@
 import {  Grow, Card, Grid, CardActions, CardContent, CardMedia, Button, Typography } from "@mui/material"
 import { useState } from "react"
 
-export default function Project({currentPage, setCurrentPage}) {
+export default function Project() {
     const [projects] = useState([
         {
             title: "Friendless-in-Seattle",

@@ -20,24 +20,13 @@ function App() {
       </Box>
 
       <Container maxWidth='xl' sx={{minHeight:'75vh'}}>
-        <main>
-        {currentPage === 'aboutme' && <About
-          currentPage = {currentPage}
-          setCurrentPage = {setCurrentPage}>
-            </About>}
+          {currentPage === 'aboutme' && <About></About>}
 
-          {currentPage === 'projects' && <Project 
-            currentPage = {currentPage}
-            setCurrentPage = {setCurrentPage}></Project>}
+          {currentPage === 'projects' && <Project ></Project>}
 
-          {currentPage === 'contact' && <Contact
-          currentPage = {currentPage}
-          setCurrentPage = {setCurrentPage}></Contact>}
+          {currentPage === 'contact' && <Contact></Contact>}
 
-          {currentPage === 'resume' && <Resume
-          currentPage = {currentPage}
-          setCurrentPage = {setCurrentPage}></Resume>}
-        </main>
+          {currentPage === 'resume' && <Resume></Resume>}
       </Container>
 
       <Box sx={{position:'inherit', bottom:0, width:'100%'}}>

@@ -1,6 +1,6 @@
 import { Grid, Avatar, Box } from "@mui/material"
 
-export default function About({currentPage, setCurrentPage}) {
+export default function About() {
     return (
         <Grid container spacing={1}>
             <Grid item xs={12} sm={3} md={3} lg={3} xl={3} sx={{display:'flex', justifyContent:'center'}}>
