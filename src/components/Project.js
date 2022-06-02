@@ -49,9 +49,9 @@ export default function Project() {
     return(
         <Grid container spacing={1}>
             {projects.map((project, i) => (
-            <Grid item xs={12} sm={12} md={4} lg={4} xl={4} sx={{display:'flex', justifyContent:'center'}}>
+            <Grid item xs={12} sm={12} md={4} lg={4} xl={4} sx={{display:'flex', justifyContent:'center'}} key={project.title}>
                 <Grow in={true} style={{ transformOrigin: '0 0 0' }} {...(true ? { timeout: project.timeout } : {})}>
-                    <Card sx={{ maxWidth: 345, backgroundColor: '#F1F2F6', mb:2 }} variant='outlined'>
+                    <Card sx={{ maxWidth: 345, backgroundColor: '#F1F2F6', mb:2 }} variant='outlined' >
                         <CardMedia
                             component="img"
                             height="140"
