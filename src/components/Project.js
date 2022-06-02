@@ -19,30 +19,30 @@ export default function Project({currentPage, setCurrentPage}) {
         },
         {
             title: "Social-Media-Backend",
-            description: "A website that allows users to create accounts and match and chat with people with similar interests. Utilizes node.js, express.js, MySQL, and Sequelize.",
-            deployed: "meme",
-            repo: "meme",
+            description: "An application that leverages Node.js, Express.js, MongoDB and Mongoose to make the foundation for the back end of a social media website. ",
+            deployed: "https://drive.google.com/file/d/1c2ib8BUolWgmfQ1GAxTq9jsGr6F2ojcq/view",
+            repo: "https://github.com/Sam-Clark1/social-media-backend",
             timeout: 1250
         },
         {
-            title: "Friendless-in-Seattle",
-            description: "A website that allows users to create accounts and match and chat with people with similar interests. Utilizes node.js, express.js, MySQL, and Sequelize.",
-            deployed: "meme",
-            repo: "meme",
+            title: "Personal-Note-Taker",
+            description: "An application that utilizes node.js and express.js to generate a website (deployed on Heroku) that allows the user to create notes and save them to be viewed later.",
+            deployed: "https://personal-note-takr.herokuapp.com/",
+            repo: "https://github.com/Sam-Clark1/personal-note-taker",
             timeout: 1500
         },
         {
-            title: "Friendless-in-Seattle",
-            description: "A website that allows users to create accounts and match and chat with people with similar interests. Utilizes node.js, express.js, MySQL, and Sequelize.",
-            deployed: "meme",
-            repo: "meme",
+            title: "Weather-App",
+            description: "A website that allows users to check the current weather and 5-day forcast of an inputted location. Powered by DayJs and Jquery.",
+            deployed: "https://sam-clark1.github.io/weather-app/",
+            repo: "https://github.com/Sam-Clark1/weather-app",
             timeout: 1750
         },
         {
-            title: "Friendless-in-Seattle",
-            description: "A website that allows users to create accounts and match and chat with people with similar interests. Utilizes node.js, express.js, MySQL, and Sequelize.",
-            deployed: "meme",
-            repo: "meme",
+            title: "Employee-Manager-CLI",
+            description: "This application uses inquirer.js and mysql to provide a command line interface for managing employees, employee roles, and departments. Can add new employees, roles, and departments to a mysql database and can retrieve all that data and view it in the command line using the console.table package.",
+            deployed: "https://drive.google.com/file/d/1Vvnk_1Cc8xU20_7aUPRbVSY2KXGLiKdk/view",
+            repo: "https://github.com/Sam-Clark1/employee-manager-cli",
             timeout: 2000
         }
     ]);
