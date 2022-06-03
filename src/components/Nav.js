@@ -1,6 +1,6 @@
-import {Button, Stack, Box, Grid} from '@mui/material'
+import {Button, Stack, Box, Grid} from '@mui/material';
 
-const Nav = ({currentPage, setCurrentPage}) => {
+export default function Nav ({currentPage, setCurrentPage}) {
 
     return(
     <Box>
@@ -33,7 +33,6 @@ const Nav = ({currentPage, setCurrentPage}) => {
             </Grid>
         </Grid>
     </Box> 
-    )
-}
+    );
+};
     
-export default Nav;

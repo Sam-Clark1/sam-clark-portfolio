@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Box, TextField, Button } from "@mui/material"
-import {validateEmail} from '../utils/helpers'
+import { Box, TextField, Button, Grow } from "@mui/material";
+import {validateEmail} from '../utils/helpers';
+
 export default function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
@@ -19,7 +20,6 @@ export default function Contact() {
           }
           }  else if (e.target.name === 'name') {
             const validName = e.target.value.length > 0;
-            console.log(e.target.value.length)
             if (!validName) {
             setErrorMessage('Must enter a name.');
             } else {
@@ -31,7 +31,6 @@ export default function Contact() {
           }
           } else {
             const validMessage = e.target.value.length > 0;
-            console.log(e.target.value.length > 0)
             if (!validMessage) {
             setErrorMessage('You must enter a message.');
             } else {
@@ -46,13 +45,14 @@ export default function Contact() {
           if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
           }
-      }
+      };
 
       function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
-      }
+      };
+
     return(
+      <Grow in={true} style={{ transformOrigin: '0 0 0' }} {...(true ? { timeout: 1000 } : {})}>
         <Box sx={{color:'white', display:'flex', justifyContent:'center'}}>
             <section>
                 <Box sx={{display:'flex', justifyContent:'center'}}>  
@@ -62,7 +62,7 @@ export default function Contact() {
                 <form id="contact-form" onSubmit={handleSubmit}>
 
                     <div>
-                    <TextField name="name" type="text" onBlur={handleChange}  label='Name' color="success" focused sx={{mb:2}} InputProps={{className:'textfield__label'}}/>
+                    <TextField name="name" type="text" onBlur={handleChange}  label='Name' color="success" focused sx={{mb:2}} inputMode={{className:'textfield__label'}}/>
                     </div>
 
                     <div>
@@ -85,5 +85,6 @@ export default function Contact() {
                 </form>
             </section>
         </Box>
-    )
-}
+      </Grow>
+    );
+};

@@ -13,5 +13,9 @@ code {
 }
 
 .textfield__label {
-  color: white !important
+  color: white !important;
+}
+
+li {
+  font-size: 1.5rem;
 }

@@ -1,5 +1,5 @@
-import {  Grow, Card, Grid, CardActions, CardContent, CardMedia, Button, Typography } from "@mui/material"
-import { useState } from "react"
+import {  Grow, Card, Grid, CardActions, CardContent, CardMedia, Button, Typography } from "@mui/material";
+import { useState } from "react";
 
 export default function Project() {
     const [projects] = useState([

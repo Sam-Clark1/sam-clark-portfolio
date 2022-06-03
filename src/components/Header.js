@@ -1,6 +1,7 @@
 import { Box } from '@mui/material';
-import Nav from './Nav'
-const Header = ({currentPage, setCurrentPage}) => {
+import Nav from './Nav';
+
+export default function Header ({currentPage, setCurrentPage}) {
     return (
         <Box sx={{width: 'auto', height:'auto', mb:2}}>
             <Nav
@@ -8,7 +9,5 @@ const Header = ({currentPage, setCurrentPage}) => {
             setCurrentPage = {setCurrentPage}>
             </Nav>
         </Box> 
-    )
-}
-
-export default Header;
+    );
+};
