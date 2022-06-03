@@ -19,7 +19,7 @@ function App() {
         </Header>
       </Box>
 
-      <Container maxWidth='xl' sx={{minHeight:'75vh'}}>
+      <Container maxWidth='xl' sx={{minHeight:'80vh'}}>
           {currentPage === 'aboutme' && <About></About>}
 
           {currentPage === 'projects' && <Project ></Project>}
