@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Sam-Clark1/sam-clark-portfolio/static/css/main.55213acc.css",
-    "main.js": "/Sam-Clark1/sam-clark-portfolio/static/js/main.3e7b4eed.js",
-    "static/js/787.c7afa8ad.chunk.js": "/Sam-Clark1/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js",
-    "static/media/avatar.jpg": "/Sam-Clark1/sam-clark-portfolio/static/media/avatar.160410bec97f157eac01.jpg",
-    "static/media/readme.png": "/Sam-Clark1/sam-clark-portfolio/static/media/readme.99c080892d65e4d46346.png",
-    "static/media/0.png": "/Sam-Clark1/sam-clark-portfolio/static/media/0.f93174e0a248d954c413.png",
-    "static/media/1.png": "/Sam-Clark1/sam-clark-portfolio/static/media/1.2fec261c5e15e1a10d57.png",
-    "static/media/2.png": "/Sam-Clark1/sam-clark-portfolio/static/media/2.5672d8b47666895492f5.png",
-    "static/media/5.png": "/Sam-Clark1/sam-clark-portfolio/static/media/5.42a349ee6d887f06f17a.png",
-    "static/media/4.png": "/Sam-Clark1/sam-clark-portfolio/static/media/4.a6f7c593f38b09b1b4f2.png",
-    "static/media/3.png": "/Sam-Clark1/sam-clark-portfolio/static/media/3.a5de9ec8a2e1b5f3ec40.png",
-    "index.html": "/Sam-Clark1/sam-clark-portfolio/index.html",
-    "main.55213acc.css.map": "/Sam-Clark1/sam-clark-portfolio/static/css/main.55213acc.css.map",
-    "main.3e7b4eed.js.map": "/Sam-Clark1/sam-clark-portfolio/static/js/main.3e7b4eed.js.map",
-    "787.c7afa8ad.chunk.js.map": "/Sam-Clark1/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js.map"
+    "main.css": "/sam-clark-portfolio/static/css/main.55213acc.css",
+    "main.js": "/sam-clark-portfolio/static/js/main.63425821.js",
+    "static/js/787.c7afa8ad.chunk.js": "/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js",
+    "static/media/avatar.jpg": "/sam-clark-portfolio/static/media/avatar.160410bec97f157eac01.jpg",
+    "static/media/readme.png": "/sam-clark-portfolio/static/media/readme.99c080892d65e4d46346.png",
+    "static/media/0.png": "/sam-clark-portfolio/static/media/0.f93174e0a248d954c413.png",
+    "static/media/1.png": "/sam-clark-portfolio/static/media/1.2fec261c5e15e1a10d57.png",
+    "static/media/2.png": "/sam-clark-portfolio/static/media/2.5672d8b47666895492f5.png",
+    "static/media/5.png": "/sam-clark-portfolio/static/media/5.42a349ee6d887f06f17a.png",
+    "static/media/4.png": "/sam-clark-portfolio/static/media/4.a6f7c593f38b09b1b4f2.png",
+    "static/media/3.png": "/sam-clark-portfolio/static/media/3.a5de9ec8a2e1b5f3ec40.png",
+    "index.html": "/sam-clark-portfolio/index.html",
+    "main.55213acc.css.map": "/sam-clark-portfolio/static/css/main.55213acc.css.map",
+    "main.63425821.js.map": "/sam-clark-portfolio/static/js/main.63425821.js.map",
+    "787.c7afa8ad.chunk.js.map": "/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55213acc.css",
-    "static/js/main.3e7b4eed.js"
+    "static/js/main.63425821.js"
   ]
 }
