@@ -1,3 +1,4 @@
+import React from "react"
 import {Button, Stack, Box, Grid} from '@mui/material';
 
 export default function Nav ({currentPage, setCurrentPage}) {

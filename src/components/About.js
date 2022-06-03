@@ -1,3 +1,4 @@
+import React from "react"
 import { Grid, Avatar, Box, Grow } from "@mui/material"
 
 export default function About() {
