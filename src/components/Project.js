@@ -26,7 +26,7 @@ export default function Project() {
         },
         {
             title: "D&D Character Creator",
-            description: "An application that utilizes Node.js, Express.js, React.js, MongoDB, Mongoose ODM, and Graphql to generate a website (deployed on Heroku) that allows the user to create notes and save them to be viewed later.",
+            description: "An application that utilizes Node.js, Express.js, React.js, MongoDB, Mongoose ODM, and Graphql to generate a website (deployed on Heroku) that allows users to create and keep track of characters for the RPG Dungeons and Dragons.",
             deployed: "https://dnd-character-creator1.herokuapp.com/",
             repo: "https://github.com/Sam-Clark1/dungeon-disco",
             timeout: 1500
