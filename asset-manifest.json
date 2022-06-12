@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sam-clark-portfolio/static/css/main.55213acc.css",
-    "main.js": "/sam-clark-portfolio/static/js/main.da913437.js",
+    "main.js": "/sam-clark-portfolio/static/js/main.9866b7b5.js",
     "static/js/787.c7afa8ad.chunk.js": "/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js",
     "static/media/avatar.jpg": "/sam-clark-portfolio/static/media/avatar.160410bec97f157eac01.jpg",
     "static/media/readme.png": "/sam-clark-portfolio/static/media/readme.99c080892d65e4d46346.png",
@@ -13,11 +13,11 @@
     "static/media/4.png": "/sam-clark-portfolio/static/media/4.a6f7c593f38b09b1b4f2.png",
     "index.html": "/sam-clark-portfolio/index.html",
     "main.55213acc.css.map": "/sam-clark-portfolio/static/css/main.55213acc.css.map",
-    "main.da913437.js.map": "/sam-clark-portfolio/static/js/main.da913437.js.map",
+    "main.9866b7b5.js.map": "/sam-clark-portfolio/static/js/main.9866b7b5.js.map",
     "787.c7afa8ad.chunk.js.map": "/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55213acc.css",
-    "static/js/main.da913437.js"
+    "static/js/main.9866b7b5.js"
   ]
 }
