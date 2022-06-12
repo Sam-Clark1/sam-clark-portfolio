@@ -25,10 +25,10 @@ export default function Project() {
             timeout: 1250
         },
         {
-            title: "Personal-Note-Taker",
-            description: "An application that utilizes node.js and express.js to generate a website (deployed on Heroku) that allows the user to create notes and save them to be viewed later.",
-            deployed: "https://personal-note-takr.herokuapp.com/",
-            repo: "https://github.com/Sam-Clark1/personal-note-taker",
+            title: "D&D Character Creator",
+            description: "An application that utilizes Node.js, Express.js, React.js, MongoDB, Mongoose ODM, and Graphql to generate a website (deployed on Heroku) that allows the user to create notes and save them to be viewed later.",
+            deployed: "https://dnd-character-creator1.herokuapp.com/",
+            repo: "https://github.com/Sam-Clark1/dungeon-disco",
             timeout: 1500
         },
         {
