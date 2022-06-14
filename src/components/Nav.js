@@ -1,8 +1,28 @@
 import React from "react"
-import {Button, Stack, Box, Grid} from '@mui/material';
+import { Link } from 'react-router-dom'
+import {Stack, Box, Grid} from '@mui/material';
 
-export default function Nav ({currentPage, setCurrentPage}) {
-
+export default function Nav () {
+const linkArray = (
+    [
+        {
+            route: 'sam-clark-portfolio/aboutme',
+            text: 'About Me'
+        },
+        {
+            route: 'sam-clark-portfolio/projects',
+            text: 'Projects'
+        },
+        {
+            route: 'sam-clark-portfolio/contact',
+            text: 'Contact'
+        },
+        {
+            route: 'sam-clark-portfolio/resume',
+            text: 'Resume'
+        }
+    ]
+)
     return(
     <Box>
         <Grid container spacing={1}>
@@ -13,23 +33,11 @@ export default function Nav ({currentPage, setCurrentPage}) {
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Stack spacing={4} direction="row" justifyContent="center" sx={{pt:5, px:2}}>
-                    <Button variant="contained" sx={{backgroundColor:'white', color: 'inherit', whiteSpace: 'nowrap', fontSize:12 }} size="auto" 
-                    onClick={() => {
-                    setCurrentPage('aboutme');
-                    }}>About Me</Button>
 
-                    <Button variant="contained" sx={{backgroundColor:'white', color: 'inherit',fontSize:12}} size="auto" onClick={() => {
-                    setCurrentPage('projects');
-                    }}>Projects</Button>
+                    {linkArray.map(link => (
+                        <Link to={link.route} className='nav-link'>{link.text}</Link>
+                    ))}
 
-                    <Button variant="contained" sx={{backgroundColor:'white', color: 'inherit', fontSize:12}} size="auto" onClick={() => {
-                    setCurrentPage('contact');
-                    }}>Contact</Button>
-
-                    <Button variant="contained" sx={{backgroundColor:'white', color: 'inherit', fontSize:12}} size="auto" onClick={() => {
-                    setCurrentPage('resume');
-                    }}>Resume</Button>
-                    
                 </Stack>
             </Grid>
         </Grid>

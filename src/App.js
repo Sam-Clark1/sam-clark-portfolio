@@ -1,5 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import { Box, Container } from "@mui/material";
+
 import Header from "./components/Header";
 import About from "./components/About";
 import Footer from "./components/Footer";
@@ -8,31 +11,40 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('aboutme')
+  
   return (
-    <div>
+    <Router>
       <Box sx={{position:'sitcky', top:0}}>
-        <Header
-          currentPage = {currentPage}
-          setCurrentPage = {setCurrentPage}
-          > 
-        </Header>
+        <Header />
       </Box>
-
       <Container maxWidth='xl' sx={{minHeight:'80vh'}}>
-          {currentPage === 'aboutme' && <About></About>}
-
-          {currentPage === 'projects' && <Project ></Project>}
-
-          {currentPage === 'contact' && <Contact></Contact>}
-
-          {currentPage === 'resume' && <Resume></Resume>}
+        <Routes>
+          <Route
+            path='sam-clark-portfolio'
+            element={<About />}
+          />
+          <Route
+            path='sam-clark-portfolio/aboutme'
+            element={<About />}
+          />
+          <Route
+            path='sam-clark-portfolio/projects'
+            element={<Project />}
+          />
+          <Route
+            path='sam-clark-portfolio/contact'
+            element={<Contact />}
+          />
+          <Route
+            path='sam-clark-portfolio/resume'
+            element={<Resume />}
+          />
+        </Routes>
       </Container>
-
       <Box sx={{position:'inherit', bottom:0, width:'100%'}}>
         <Footer></Footer>
       </Box>
-    </div>
+    </Router>
   );
 }
 
