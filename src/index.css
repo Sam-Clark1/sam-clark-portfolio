@@ -30,3 +30,11 @@ text-decoration: none;
   transform: scale(1.1);
   text-decoration: underline;
 }
+
+.drawer-nav-link {
+  text-decoration: none;
+}
+
+.menu-icon {
+  color: white;
+}
