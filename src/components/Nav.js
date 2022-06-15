@@ -29,9 +29,11 @@ const linkArray = (
         <a href="#" data-target="mobile-nav" className="sidenav-trigger hide-on-large-only"><DrawerNav /></a>
         <Grid container spacing={1}>
             <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-                <Box sx={{color: 'white', display:'flex', justifyContent:'center', alignItems:'center', fontSize:80, fontFamily:"monospace", p:1}}>
-                    Sam Clark
-                </Box>
+                <Link to={'sam-clark-portfolio'}>
+                    <Box sx={{color: 'white', display:'flex', justifyContent:'center', alignItems:'center', fontSize:80, fontFamily:"monospace", p:1}}>
+                        Sam Clark
+                    </Box>
+                </Link>
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Stack spacing={4} direction="row" justifyContent="center" sx={{pt:5, px:2}} className='hide-on-med-and-down'>

@@ -38,3 +38,13 @@ text-decoration: none;
 .menu-icon {
   color: white;
 }
+
+.resume-link {
+  color: white;
+  margin-left: 9px;
+  text-decoration: underline;
+}
+.resume-link:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}

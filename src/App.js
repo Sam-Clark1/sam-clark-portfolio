@@ -17,7 +17,7 @@ function App() {
       <Box sx={{position:'sitcky', top:0}}>
         <Header />
       </Box>
-      <Container maxWidth='xl' sx={{minHeight:'80vh'}}>
+      <Container maxWidth='xl' sx={{minHeight:'76.5vh'}}>
         <Routes>
           <Route
             path='sam-clark-portfolio'
