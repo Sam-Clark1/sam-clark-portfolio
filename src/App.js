@@ -7,7 +7,6 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
-import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 function App() {
@@ -30,10 +29,6 @@ function App() {
           <Route
             path='sam-clark-portfolio/projects'
             element={<Project />}
-          />
-          <Route
-            path='sam-clark-portfolio/contact'
-            element={<Contact />}
           />
           <Route
             path='sam-clark-portfolio/resume'

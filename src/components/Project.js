@@ -60,13 +60,13 @@ export default function Project() {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div">
-                            {project.title}
+                                {project.title}
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                            {project.description}
+                                {project.description}
                             </Typography>
                         </CardContent>
-                        <CardActions>
+                        <CardActions sx={{pt:'auto'}}>
                             <Button href={project.deployed} size="small" target="_blank" rel='noreferrer'>Deployed App</Button>
                             <Button href={project.repo} size="small" target="_blank" rel='noreferrer'>Github</Button>
                         </CardActions>

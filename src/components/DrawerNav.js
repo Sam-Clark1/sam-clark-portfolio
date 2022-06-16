@@ -10,10 +10,7 @@ import { Link } from 'react-router-dom'
 
 export default function DrawerNav() {
     const [state, setState] = useState({
-        top: false,
-        left: false,
-        bottom: false,
-        right: false,
+        left: false
       });
 
       const menuArray = (
@@ -25,10 +22,6 @@ export default function DrawerNav() {
             {
                 route: 'sam-clark-portfolio/projects',
                 text: 'Projects'
-            },
-            {
-                route: 'sam-clark-portfolio/contact',
-                text: 'Contact'
             },
             {
                 route: 'sam-clark-portfolio/resume',

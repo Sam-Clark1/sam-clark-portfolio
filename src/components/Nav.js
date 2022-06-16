@@ -15,10 +15,6 @@ const linkArray = (
             text: 'Projects'
         },
         {
-            route: 'sam-clark-portfolio/contact',
-            text: 'Contact'
-        },
-        {
             route: 'sam-clark-portfolio/resume',
             text: 'Resume'
         }
@@ -30,7 +26,7 @@ const linkArray = (
         <Grid container spacing={1}>
             <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
                 <Link to={'sam-clark-portfolio'}>
-                    <Box sx={{color: 'white', display:'flex', justifyContent:'center', alignItems:'center', fontSize:80, fontFamily:"monospace", p:1}}>
+                    <Box sx={{color: 'white', display:'flex', justifyContent:'center', alignItems:'center', fontSize:80, p:1}}>
                         Sam Clark
                     </Box>
                 </Link>
