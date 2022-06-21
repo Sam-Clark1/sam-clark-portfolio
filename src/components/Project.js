@@ -11,11 +11,25 @@ export default function Project() {
             timeout: 750
         },
         {
+            title: "D&D Character Creator",
+            description: "An application that utilizes Node.js, Express.js, React.js, MongoDB, Mongoose ODM, and Graphql to generate a website (deployed on Heroku) that allows users to create and keep track of characters for the RPG Dungeons and Dragons.",
+            deployed: "https://dnd-character-creator1.herokuapp.com/",
+            repo: "https://github.com/Sam-Clark1/dungeon-disco",
+            timeout: 1000
+        },
+        {
+            title: "Deep-Thinking",
+            description: "Deep Thinking is a website that allows users to create accounts and then post thoughts they have that can be seen by other users. Users can post reactions to thoughts and also view profiles of other users and see all their thoughts. Built with MongoDB, Express.js, React.js, Node.js, and GraphQL. ",
+            deployed: "https://deep-thinking1.herokuapp.com/",
+            repo: "https://github.com/Sam-Clark1/deep-thinking",
+            timeout: 1750
+        },
+        {
             title: "Date-Dime",
             description: "A website that allows users to search for restaurants by price and location and also gives movie ideas. Uses Jquery, Google Maps API, and MovieGlu API",
-            deployed: "https://lyndsclev.github.io/date-dime/",
+            deployed: "https://sam-clark1.github.io/date-dime/",
             repo: "https://github.com/Sam-Clark1/date-dime",
-            timeout: 1000
+            timeout: 1500
         },
         {
             title: "Social-Media-Backend",
@@ -23,20 +37,6 @@ export default function Project() {
             deployed: "https://drive.google.com/file/d/1c2ib8BUolWgmfQ1GAxTq9jsGr6F2ojcq/view",
             repo: "https://github.com/Sam-Clark1/social-media-backend",
             timeout: 1250
-        },
-        {
-            title: "D&D Character Creator",
-            description: "An application that utilizes Node.js, Express.js, React.js, MongoDB, Mongoose ODM, and Graphql to generate a website (deployed on Heroku) that allows users to create and keep track of characters for the RPG Dungeons and Dragons.",
-            deployed: "https://dnd-character-creator1.herokuapp.com/",
-            repo: "https://github.com/Sam-Clark1/dungeon-disco",
-            timeout: 1500
-        },
-        {
-            title: "Weather-App",
-            description: "A website that allows users to check the current weather and 5-day forcast of an inputted location. Powered by DayJs and Jquery.",
-            deployed: "https://sam-clark1.github.io/weather-app/",
-            repo: "https://github.com/Sam-Clark1/weather-app",
-            timeout: 1750
         },
         {
             title: "Employee-Manager-CLI",
@@ -51,7 +51,7 @@ export default function Project() {
             {projects.map((project, i) => (
             <Grid item xs={12} sm={12} md={4} lg={4} xl={4} sx={{display:'flex', justifyContent:'center'}} key={project.title}>
                 <Grow in={true} style={{ transformOrigin: '0 0 0' }} {...(true ? { timeout: project.timeout } : {})}>
-                    <Card sx={{ maxWidth: 345, backgroundColor: '#F1F2F6', mb:2 }} variant='outlined' >
+                    <Card sx={{ maxWidth: 345, backgroundColor: '#F1F2F6', mb:2, display: 'flex', flexDirection: 'column' }} variant='outlined' >
                         <CardMedia
                             component="img"
                             height="140"
@@ -66,7 +66,7 @@ export default function Project() {
                                 {project.description}
                             </Typography>
                         </CardContent>
-                        <CardActions sx={{pt:'auto'}}>
+                        <CardActions sx={{mt:'auto'}}>
                             <Button href={project.deployed} size="small" target="_blank" rel='noreferrer'>Deployed App</Button>
                             <Button href={project.repo} size="small" target="_blank" rel='noreferrer'>Github</Button>
                         </CardActions>
