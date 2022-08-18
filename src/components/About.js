@@ -5,11 +5,11 @@ export default function About() {
     const skillsArray = [
         {
             title: 'Languages',
-            skills: 'Javascript, SQL, HTML/CSS'
+            skills: 'Javascript, SQL, Java, HTML/CSS'
         },
         {
             title: 'Technologies',
-            skills: 'Node.js, Express.js, React.js, REST, GraphQL, JWT, MVC'
+            skills: 'Node.js, Express.js, React.js, REST, GraphQL, Spring Boot, MVC, SPA'
         },
         {
             title: 'Databases',
