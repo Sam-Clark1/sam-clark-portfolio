@@ -21,7 +21,7 @@ export default function About() {
         },
         {
             title: 'Tools',
-            skills: 'Git, GitHub, GitLab, Heroku, Postman, Bash'
+            skills: 'Git, GitHub, AWS, GitLab, Heroku, Postman, Bash'
         }
     ];
     return (
