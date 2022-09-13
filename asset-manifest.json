@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sam-clark-portfolio/static/css/main.4282c172.css",
-    "main.js": "/sam-clark-portfolio/static/js/main.45089585.js",
+    "main.js": "/sam-clark-portfolio/static/js/main.8341f618.js",
     "static/js/787.c7afa8ad.chunk.js": "/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js",
     "static/media/avatar.jpg": "/sam-clark-portfolio/static/media/avatar.160410bec97f157eac01.jpg",
     "static/media/readme.png": "/sam-clark-portfolio/static/media/readme.99c080892d65e4d46346.png",
@@ -11,14 +11,14 @@
     "static/media/5.png": "/sam-clark-portfolio/static/media/5.5672d8b47666895492f5.png",
     "static/media/0.png": "/sam-clark-portfolio/static/media/0.6614b25aa3eada269fe4.png",
     "static/media/3.png": "/sam-clark-portfolio/static/media/3.5fce401bd185e158a349.png",
-    "static/media/Samuel Clark Resume.pdf": "/sam-clark-portfolio/static/media/Samuel Clark Resume.08c7c988ea715654ea12.pdf",
+    "static/media/Samuel Clark Resume.pdf": "/sam-clark-portfolio/static/media/Samuel Clark Resume.fe4e3e9bb581bf654129.pdf",
     "index.html": "/sam-clark-portfolio/index.html",
     "main.4282c172.css.map": "/sam-clark-portfolio/static/css/main.4282c172.css.map",
-    "main.45089585.js.map": "/sam-clark-portfolio/static/js/main.45089585.js.map",
+    "main.8341f618.js.map": "/sam-clark-portfolio/static/js/main.8341f618.js.map",
     "787.c7afa8ad.chunk.js.map": "/sam-clark-portfolio/static/js/787.c7afa8ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4282c172.css",
-    "static/js/main.45089585.js"
+    "static/js/main.8341f618.js"
   ]
 }
