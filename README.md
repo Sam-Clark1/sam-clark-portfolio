@@ -9,7 +9,3 @@ You can visit this site here: https://sam-clark1.github.io/sam-clark-portfolio/
 
 ## Screenshot
 <img src='./src/assets/readme.png'>
-
-## Questions
-If you have questions, you can email me at samclark2399@gmail.com or you can checkout my repos
-on my <a href=https://github.com/sam-clark1>GitHub</a>.
