@@ -21,10 +21,10 @@ export default function Resume() {
                         <Typography variant="h5" gutterBottom component="div">Contact Information:</Typography>
                         <ul>
                             <li>
-                                Telephone Number: 704-799-5685
+                                Telephone Number: 
                             </li>
                             <li>
-                                Email: samclark2399@gmail.com
+                                Email: 
                             </li>
                         </ul>
                     </Box>
